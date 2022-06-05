@@ -3363,7 +3363,7 @@ table.alt tbody tr td {
 	width: 100%;
 	height: 100%;
 	background-color: #212931;
-	background-image: url("../../images/overlay.png"), linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../../images/bg.jpg");
+	background-image: url("../../images/overlay.png"), linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../../images/dna.jpg");
 	background-size: auto, auto, 100% auto;
 	background-position: center, center, top center;
 	background-repeat: repeat, no-repeat, no-repeat;
@@ -4862,5 +4862,23 @@ body.is-preload #intro:not(.hidden)+#header+#nav {
 }
 
 .p {
+	text-align: center;
+}
+
+.flex-buttons {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+}
+
+.projectsHeader {
+	display: flex;
+	justify-content: space-around;
+	text-align: center;
+
+
+}
+
+.moreskills {
 	text-align: center;
 }
