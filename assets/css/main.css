@@ -3363,7 +3363,7 @@ table.alt tbody tr td {
 	width: 100%;
 	height: 100%;
 	background-color: #212931;
-	background-image: url("../../images/overlay.png"), linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../../images/sand.jpg");
+	background-image: url("../../images/overlay.png"), linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../../images/texture.jpg");
 	background-size: auto, auto, 100% auto;
 	background-position: center, center, top center;
 	background-repeat: repeat, no-repeat, no-repeat;
@@ -4013,7 +4013,7 @@ body.is-preload #intro:not(.hidden)+#header+#nav {
 
 #main>.posts>* {
 	padding: 4rem;
-	width: 50%;
+	width: 100%;
 }
 
 #main>.posts>article {
@@ -4039,12 +4039,12 @@ body.is-preload #intro:not(.hidden)+#header+#nav {
 @media screen and (max-width: 980px) {
 
 	#main>.posts>* {
-		width: 50%;
+		width: 100%;
 	}
 
 	#main>.posts>* {
 		padding: 2.5rem;
-		width: 50%;
+		width: 1000%;
 	}
 
 }
